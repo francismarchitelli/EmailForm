@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+    <body>
+        <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name"/>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" />
+                </div>
+
+                <div>
+                    <label for="your message">Your Message</label>
+                    <textarea
+                    id="your message"
+                    name="message"
+                    maxlength="500"
+                    placeholder="Write your message here"
+                    ></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+        </form>
+    </body>
+</html>
